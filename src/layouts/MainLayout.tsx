@@ -1,15 +1,15 @@
 import { Outlet } from 'react-router-dom'
-import Navbar from '../components/Navbar'
+import Navbar from '@/components/Navbar'
 
 const MainLayout = () => {
   return (
     <>
       <Navbar />
-      <main className="bg-[#600439] bg-opacity-10 text-[#ffffff]">
+      <main className="bg-black text-[#ffffff]">
         <Outlet />
       </main>
-      <footer className="text-center p-4 bg-gray-200">
-        &copy; {new Date().getFullYear()} Owais R B
+      <footer className="h-40 p-4 border-t bg-[#060442] text-[#ffffff] border-[#080469]">
+        <p className="text-xl">Owais R B</p>
       </footer>
     </>
   )

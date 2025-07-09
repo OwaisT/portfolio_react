@@ -9,6 +9,7 @@
     "esModuleInterop": true,
     "jsx": "react-jsx",
     "strict": true,
+    "types": ["node"],
     "baseUrl": "./",
     "paths": {
       "@/*": ["src/*"]
