@@ -2,6 +2,10 @@ import { Outlet } from 'react-router-dom'
 import Navbar from '@/components/Navbar'
 import { useSlideInStagger } from '@/hooks/useSlideInStagger';
 
+/**
+ * @returns Maint layout component that includes the Navbar, main content area, and a footer.
+ * TThe layout to be used all around the website.
+ */
 const MainLayout = () => {
     // Custom hook for staggered slide-in animations
     useSlideInStagger();

@@ -3,7 +3,11 @@ import WideCardsDisplay from "@/components/WideCardsDisplay"
 import {nextProjectsData, reactProjectsData, pythonProjectsData, wordpressProjectsData} from "./data"
 import Hero from "@/components/Hero"
 
-// src/pages/Home.tsx
+/**
+ * Home component that serves the main page of the portfolio
+ * Includes a hero section then a spacer and a series of wide cards displays for each project category
+ */
+
 const Home = () => {
   return (
     <div className="bg-[#030221] text-white">

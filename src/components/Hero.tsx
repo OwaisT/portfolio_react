@@ -1,5 +1,3 @@
-import { useSlideInStagger } from "@/hooks/useSlideInStagger";
-
 // Hero component with ambient gradient effect for the main page
 const Hero = () => {
     

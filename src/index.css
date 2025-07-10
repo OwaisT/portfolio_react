@@ -1,6 +1,7 @@
 /* src/index.css */
 @import "tailwindcss";
 
+/* Add Montserrat for applying it to the whole site */
 @font-face {
     font-family: 'Montserrat';
     src: url('./assets/fonts/Montserrat-VariableFont_wght.ttf') format('truetype');

@@ -1,6 +1,9 @@
-import React, { useRef } from "react";
 import WideCard from "@/components/WideCard";
-import { useSlideInStagger } from "@/hooks/useSlideInStagger";
+
+/**
+ * WideCardsDisplay displays the a list of wide cards with a heading
+ * The data given is a list of data for each card.
+ */
 
 // Define the type for the list of cards
 export type WideCardProps = {
