@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useRef } from "react";
 import WideCard from "@/components/WideCard";
+import { useSlideInStagger } from "@/hooks/useSlideInStagger";
 
 // Define the type for the list of cards
 export type WideCardProps = {
@@ -15,10 +16,11 @@ interface WideCardsDisplayProps {
     heading: string;
 }
 
-const WideCardsDisplay: React.FC<WideCardsDisplayProps> = ({ cards, heading }) => {
+const WideCardsDisplay = ({ cards, heading } : WideCardsDisplayProps) => {
+
     return (
-        <div className="gap-4 flex flex-col items-center pb-4">
-            <h2 className="text-3xl font-bold" >{heading}</h2>
+        <div className="gap-4 flex flex-col items-center pb-4 slide-ins-staggered">
+            <h2 className="text-3xl font-bold slide-in-stagger">{heading}</h2>
             {cards.map((card, idx) => (
                 <WideCard key={idx} {...card} />
             ))}

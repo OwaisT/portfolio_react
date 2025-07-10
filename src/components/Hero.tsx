@@ -1,9 +1,10 @@
+import { useSlideInStagger } from "@/hooks/useSlideInStagger";
 
 // Hero component with ambient gradient effect for the main page
-
 const Hero = () => {
+    
     return (
-        <div className="relative min-h-screen bg-[#030221] overflow-hidden">
+        <div className="relative min-h-screen bg-[#030221] overflow-hidden slide-ins-staggered">
             {/* Left blurred radial */}
             <div className="absolute inset-0 pointer-events-none">
                 <div
@@ -32,10 +33,10 @@ const Hero = () => {
 
             {/* Foreground content */}
             <div className="relative z-10 flex flex-col items-center justify-center h-screen px-6 text-center">
-                <h1 className="max-w-lg text-3xl font-extrabold leading-tight">
+                <h1 className="max-w-lg text-3xl font-extrabold leading-tight slide-in-stagger">
                     Créer des projets numériques qui comptent
                 </h1>
-                <p className="mt-6 max-w-md text-lg text-gray-300">
+                <p className="mt-6 max-w-md text-lg text-gray-300 slide-in-stagger">
                     Mes compétences et réalisations au service de votre équipe.
                 </p>
             </div>
