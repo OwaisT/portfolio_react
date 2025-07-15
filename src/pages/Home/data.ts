@@ -55,7 +55,7 @@ export const pythonProjectsData = [
         imgAlt : "Greek Meantime Flask",
         head : "Greek Meantime Flask",
         desc : "Développement d’un middleware en Flask pour gérer les sessions panier et centraliser les données du site via l’API WooCommerce, afin d’éviter la création d’un back-end e-commerce complexe. Intégration manuelle du module de paiement Stripe POS, non disponible via l’API WooCommerce, pour permettre les paiements en ligne via terminal virtuel.",
-        link : "https://github.com/OwaisT/gmtime_middleware",
+        link : "https://github.com/OwaisT/gmtime_flask_middleware",
         btnTxt : "Vers le dépôt Git"
     },
     {
