@@ -1,7 +1,7 @@
 import Spacer from "@/components/Spacer"
 import WideCardsDisplay from "@/components/WideCardsDisplay"
 import {nextProjectsData, reactProjectsData, pythonProjectsData, wordpressProjectsData} from "./data"
-import Hero from "@/components/Hero"
+import Hero from "@/components/hero/Hero"
 
 /**
  * Home component that serves the main page of the portfolio

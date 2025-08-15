@@ -12,6 +12,7 @@ export type WideCardProps = {
     head: string;
     desc: string;
     link: string;
+    btnTxt: string;
 };
 
 interface WideCardsDisplayProps {

@@ -1,18 +1,19 @@
+import SkillsLogos from "@/components/hero/SkillsLogos"
+import { TestLogos } from "@/components/hero/SkillsLogos";
 // Hero component with ambient gradient effect for the main page
 const Hero = () => {
     
     return (
-        <div className="relative min-h-screen bg-[#030221] overflow-hidden slide-ins-staggered">
+        <div className="magnify-items-container relative min-h-screen bg-[#030221] overflow-hidden slide-ins-staggered">
             {/* Left blurred radial */}
             <div className="absolute inset-0 pointer-events-none">
-                <div
-                className="absolute top-1/2 left-[30%] w-[800px] h-[800px] rounded-full"
-                style={{
-                    background:
-                    "radial-gradient(circle, rgba(99,102,241,0.15) 0%, transparent 90%)",
-                    filter: "blur(100px)",
-                    transform: "translate(-50%, -50%)",
-                }}
+                <div className="absolute top-1/2 left-[30%] w-[800px] h-[800px] rounded-full"
+                    style={{
+                        background:
+                        "radial-gradient(circle, rgba(99,102,241,0.15) 0%, transparent 90%)",
+                        filter: "blur(100px)",
+                        transform: "translate(-50%, -50%)",
+                    }}
                 />
             </div>
 
@@ -37,6 +38,7 @@ const Hero = () => {
                 <p className="mt-6 max-w-md text-lg text-gray-300 slide-in-stagger">
                     Mes compétences et réalisations au service de votre équipe.
                 </p>
+                <SkillsLogos />
             </div>
         </div>
     )

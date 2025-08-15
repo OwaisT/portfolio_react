@@ -1,5 +1,4 @@
 import { useGSAP } from "@gsap/react";
-import { useEffect } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
@@ -15,12 +14,10 @@ export const useSlideInStagger = () => {
     useGSAP(() => {
         // Select all elements with parent class "slide-ins-staggered"
         const sections = document.querySelectorAll(".slide-ins-staggered");
-        console.log("[GSAP] Found sections:", sections);
 
         // Collect all child elements and apply animation on them
         sections.forEach((section) => {
             const targets = section.querySelectorAll(".slide-in-stagger");
-            console.log("[GSAP] Section:", section, "Targets:", targets);
             
             // Apply gsap animation to each element to be animated with one staggered over other within parent
             gsap.from(targets, {
