@@ -10,7 +10,7 @@ export type ProjectCardProps = {
     image: string;
     imgAlt: string;
     head: string;
-    desc: string;
+    desc: Array<{ label: string; text: string }>;
     link: string;
     btnTxt: string;
 };
