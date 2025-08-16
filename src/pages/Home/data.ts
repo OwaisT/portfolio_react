@@ -148,3 +148,8 @@ export const wordpressProjectsData = [
         btnTxt : "Vers le site"
     }
 ]
+
+export const aboutMeData = {
+    heading: "À propos de moi",
+    description: "Je suis un développeur web passionné par la création d'expériences numériques fluides et engageantes. Mon expertise réside dans le développement front-end et back-end, avec une forte compétence en intégration de systèmes et en optimisation des performances."
+};
