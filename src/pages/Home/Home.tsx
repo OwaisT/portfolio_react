@@ -2,6 +2,7 @@ import Spacer from "@/components/Spacer"
 import ProjectCardsDisplay from "@/components/ProjectCardsDisplay"
 import {nextProjectsData, reactProjectsData, pythonProjectsData, wordpressProjectsData} from "./data"
 import Hero from "@/components/hero/Hero"
+import About from "./About"
 
 /**
  * Home component that serves the main page of the portfolio
@@ -17,6 +18,9 @@ const Home = () => {
       <ProjectCardsDisplay cards={reactProjectsData} heading="Projets React" />
       <ProjectCardsDisplay cards={pythonProjectsData} heading="Projets Python" />
       <ProjectCardsDisplay cards={wordpressProjectsData} heading="Projets Wordpress" />
+      <Spacer />
+      <About />
+      <Spacer />
     </div>
   )
 }

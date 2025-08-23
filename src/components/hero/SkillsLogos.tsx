@@ -9,13 +9,13 @@ import wordpressLogo from "@/assets/images/platforms/wordpress.svg";
 const SkillsLogos = () => {
     return (
         <div id="skills-logos" className="flex mt-6 space-x-4 magnify">
-            <img src={reactLogo} alt="React Logo" className="w-7 h-7 md:w-15 md:h-15" />
-            <img src={nextLogo} alt="Next.js Logo" className="w-7 h-7 md:w-15 md:h-15" />
-            <img src={tsLogo} alt="TypeScript Logo" className="w-7 h-7 md:w-15 md:h-15" />
-            <img src={pythonLogo} alt="Python Logo" className="w-7 h-7 md:w-15 md:h-15" />
-            <img src={flaskLogo} alt="Flask Logo" className="w-7 h-7 md:w-15 md:h-15" />
-            <img src={jsLogo} alt="JavaScript Logo" className="w-7 h-7 md:w-15 md:h-15" />
-            <img src={wordpressLogo} alt="WordPress Logo" className="w-7 h-7 md:w-15 md:h-15" />
+            <img src={reactLogo} alt="React Logo" className="w-7 h-7 md:w-15 md:h-15 wave" />
+            <img src={nextLogo} alt="Next.js Logo" className="w-7 h-7 md:w-15 md:h-15 wave" />
+            <img src={tsLogo} alt="TypeScript Logo" className="w-7 h-7 md:w-15 md:h-15 wave" />
+            <img src={pythonLogo} alt="Python Logo" className="w-7 h-7 md:w-15 md:h-15 wave" />
+            <img src={flaskLogo} alt="Flask Logo" className="w-7 h-7 md:w-15 md:h-15 wave" />
+            <img src={jsLogo} alt="JavaScript Logo" className="w-7 h-7 md:w-15 md:h-15 wave" />
+            <img src={wordpressLogo} alt="WordPress Logo" className="w-7 h-7 md:w-15 md:h-15 wave" />
         </div>
     );
 };

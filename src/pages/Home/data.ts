@@ -1,6 +1,7 @@
 import OW from "@/assets/images/projects/project-orb-weber.png";
 import OW_WP from "@/assets/images/projects/orb_weber_wp.jpg";
 import GMT from "@/assets/images/projects/gmtime.jpg";
+import GMT_WP from "@/assets/images/projects/gmt_wp.jpg";
 import MF from "@/assets/images/projects/mode_feerie.jpg";
 import MF_WP from "@/assets/images/projects/mf_wp_scaled.jpg";
 
@@ -122,7 +123,7 @@ export const wordpressProjectsData = [
         btnTxt : "Vers le site"
     },
     {
-        image : GMT,
+        image : GMT_WP,
         imgAlt : "Greek Meantime",
         head : "Greek Meantime",
         desc : [
@@ -149,7 +150,29 @@ export const wordpressProjectsData = [
     }
 ]
 
-export const aboutMeData = {
-    heading: "À propos de moi",
-    description: "Je suis un développeur web passionné par la création d'expériences numériques fluides et engageantes. Mon expertise réside dans le développement front-end et back-end, avec une forte compétence en intégration de systèmes et en optimisation des performances."
-};
+export const aboutMeData = [
+    { 
+        heading: "Qui suis-je ?",
+        description: "Je construis des solutions web là où le simple “ça fonctionne” ne suffit pas. Par exemple, j’ai conçu des middlewares qui synchronisent automatiquement des données entre Airtable et le site, permettant à mes clients de mettre à jour leur catalogue sans toucher au code front-end. J’optimise les projets pour que chaque ajout ou modification n’introduise jamais de bug et que le site reste performant même sous charge. Chaque projet que je livre est pensé pour durer et évoluer sans effort."
+    },
+    { 
+        heading: "Coder, ce n’est pas juste écrire du code",
+        description: "Respecter les bonnes pratiques — sécuriser les entrées et sorties, commenter, modulariser — n’est que la première couche. Ce qui fait la différence, c’est la compréhension de l’infrastructure et de l’impact de chaque ligne de code sur le système global. Je réfléchis à la structure des bases de données, aux flux d’API et à l’intégration entre les différentes parties du projet, pour que chaque nouvelle fonctionnalité soit facile à ajouter et performante. Mon code est pensé pour être repris et étendu par d’autres sans créer de casse ni de confusion."
+    },
+    { 
+        heading: "Pensée produit et expérience utilisateur",
+        description: "Chaque choix technique que je fais se traduit directement dans l’expérience des visiteurs. Je teste systématiquement les formulaires, les boutons et la navigation pour m’assurer que tout est clair, intuitif et fiable. Je vérifie que les flux d’achat ou de réservation se déroulent sans friction, que les contenus dynamiques se chargent correctement et rapidement, et que les interactions critiques ne génèrent pas de bugs pouvant nuire à la confiance des utilisateurs. Mon objectif est que chaque projet soit fonctionnel et agréable dès le premier jour, tout en cachant la complexité technique qui se trouve derrière."
+    },
+    { 
+        heading: "Sécurité et conformité",
+        description: "Je veille à ce que tout ce que je développe soit sécurisé et conforme aux réglementations, notamment le RGPD. Cela inclut le chiffrement des données, la collecte minimale nécessaire et la mise en place de règles claires de conservation et de suppression. Mon objectif est que chaque projet soit non seulement performant et fiable, mais également prêt à durer dans le temps, tout en protégeant les informations des utilisateurs."
+    },
+    { 
+        heading: "L’importance des tests",
+        description: "Récemment, j’ai compris que la partie la plus lourde de la création d’un projet n’est pas la conception ni l’implémentation, mais les tests. Pour qu’un projet soit réellement fiable et que les utilisateurs puissent compter dessus, il faut consacrer plus de 50 % du temps aux tests. Chaque scénario est vérifié, chaque interaction testée, même dans les cas imprévus. C’est à ce moment-là que la qualité réelle prend vie, et que le projet devient solide et digne de confiance."
+    },
+    { 
+        heading: "Ce que j’apporte",
+        description: "Je combine compétences techniques, sens pratique et esprit d’analyse pour que chaque projet fonctionne réellement, reste facile à maintenir et à faire évoluer, et apporte une vraie valeur dès le lancement."
+    }
+];

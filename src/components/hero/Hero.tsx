@@ -33,10 +33,14 @@ const Hero = () => {
             {/* Foreground content */}
             <div className="relative z-10 flex flex-col items-center justify-center h-screen px-6 text-center">
                 <h1 className="max-w-lg text-3xl font-extrabold leading-tight slide-in-stagger">
-                    Créer des projets numériques qui comptent
+                    Mes 5 essentiels quand je travaille sur un projet
                 </h1>
-                <p className="mt-6 max-w-md text-lg text-gray-300 slide-in-stagger">
-                    Mes compétences et réalisations au service de votre équipe.
+                <p className="mt-6 max-w-md text-lg text-justify text-gray-300 slide-in-stagger">
+                    <strong>Clarté du code</strong> – un code lisible, structuré et facile à maintenir<br/>
+                    <strong>Optimisation & performance</strong> – penser au temps de réponse et à la fluidité dès la conception<br/>
+                    <strong>Compréhension de l’infrastructure</strong> – adapter le code à l’architecture pour plus d’efficacité<br/>
+                    <strong>Sécurité & RGPD</strong> – données chiffrées, collecte minimale et conformité par design<br/>
+                    <strong>Tests approfondis</strong> – plus de 50 % du temps consacré à fiabiliser chaque interaction
                 </p>
                 <SkillsLogos />
             </div>
